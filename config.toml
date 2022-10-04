@@ -1,10 +1,10 @@
-baseURL = "http://example.org/"
+baseURL = "http://eastash.me/"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "loveit"
 
 # website title
-title = "EastAsh Dev Blog"
+title = "EastAsh의 개발자국"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "ko"
@@ -19,8 +19,8 @@ enableEmoji = true
 
 # Author config
 [author]
-name = "xxxx"
-email = ""
+name = "EastAsh"
+email = "louiminister@gmail.com"
 link = ""
 
 # Menu config

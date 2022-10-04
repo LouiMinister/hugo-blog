@@ -12,8 +12,8 @@ resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-tags: ["Markdown", "HTML"]
-categories: ["Markdown"]
+tags: ["Node", "TypeORM"]
+categories: ["Node BackEnd"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -25,7 +25,7 @@ fontawesome: true
 linkToMarkdown: true
 rssFullText: false
 ---
-
+<!--more-->
 공식문서 [typeorm.io](http://typeorm.io) 를 통해 글을 작성하였다.
 
 ## 0. 숲 그리기
@@ -82,6 +82,7 @@ npx typeorm init --name MyProject --database postgres
 `mysql`, `mariadb`, `postgres`, `cockroachdb`, `sqlite`, `mssql`, `sap`, `spanner`, `oracle`, `mongodb`, `cordova`, `react-native`, `expo`, `nativescript`.
 
 
+\
 생성 시 다음과 같은 디렉터리 구조를 가진 프로젝트가 생성된다.
 
 ```

@@ -31,7 +31,7 @@ rssFullText: false
 ### Started from the middle
 이번에는 새로운 끄적끄적이다. Hugo를 이용한 블로그를 만들어 본 김에 뭔가 여기다가 잡생각을 적고 싶어졌다.
 GitHub와 정적 웹사이트 생성기를 이용하여 만든 블로그는 확실히 Public한 블로그 플랫폼보다 여러모로 마음에 드는 점이 많다.
-일단 UI도 이쁘고, 나만의 공간이라는 Private한 점이 뿜뿜. 도메인도 거금 7700₩ 주고 한달치 `Flex` 하였다
+일단 UI도 이쁘고, 나만의 공간이라는 Private한 점이 뿜뿜. 도메인도 거금 7700₩ 주고 일년치 `Flex` 하였다
 
 {{< admonition type=warning title="이 영업장은 아직 가오픈입니다." open=true >}}
 요러한 기능도 쓸 수 있다는 점이 아주 맘에 들었다.

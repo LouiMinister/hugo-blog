@@ -1,14 +1,3 @@
-.home[data-home=posts] {
-
-  .summary {
-
-    .featured-image-preview {
-      width: 110%;
-      padding: 30% 0 0;
-      position: relative;
-      margin: 10rem auto;
-      background-color: white;
-      @include transition(transform 0.4s ease);
-    }
-  }
+.featured-image,.featured-image-preview{
+  background-color: white;
 }

@@ -1,12 +1,12 @@
 ---
-weight: 4
-title: "Basic Markdown Syntax2"
-date: 2019-12-01T21:57:40+08:00
+title: "TypeORM을 이해하고 사용하기"
+subtitle: "공식 문서를 통해 TypeORM을 이해하고 사용해보자."
+date: 2022-10-01T12:00:00+09:00
 lastmod: 2020-01-01T16:45:40+08:00
 draft: false
-author: "Dillon"
-authorLink: "https://dillonzq.com"
-description: "This article shows the basic Markdown syntax and format."
+author: "EastAsh"
+authorLink: "https://github.com/LouiMinister"
+description: "TypeORM 사용 방법을 알아보자."
 images: []
 resources:
 - name: "featured-image"
@@ -15,13 +15,16 @@ resources:
 tags: ["Markdown", "HTML"]
 categories: ["Markdown"]
 
-
+hiddenFromHomePage: false
+hiddenFromSearch: false
+twemoji: false
 lightgallery: true
+ruby: true
+fraction: true
+fontawesome: true
+linkToMarkdown: true
+rssFullText: false
 ---
-
-TypeORM 사용 방법을 알아보자.
-
-<!--more-->
 
 공식문서 [typeorm.io](http://typeorm.io) 를 통해 글을 작성하였다.
 
@@ -52,16 +55,6 @@ TypeORM 사용 방법을 알아보자.
 ## 1. 시작하기
 
 ---
-
-{{< admonition warning "This is a tip" >}}
-A **tip** banner
-HIHI
-{{< /admonition >}}
-{{< admonition type=warning open=false >}}
-This article is a shameful copy of the great [Grav original page](http://learn.getgrav.org/content/markdown).
-
-If you want to know about the extended Markdown syntax of **LoveIt** theme, please read [extended Markdown syntax page](../theme-documentation-content#extended-markdown-syntax).
-{{< /admonition >}}
 
 CLI를 이용하여 새로운 프로젝트를 생성하려면 다음 명령어를 실행시킨다.
 

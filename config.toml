@@ -64,7 +64,7 @@ noClasses = false
 [languages]
 [languages.ko]
 weight = 1
-title = "EastAsh Dev Blog"
+title = "EastAsh의 개발자국"
 languageCode = "ko"
 languageName = "Korean"
 [[languages.ko.menu.main]]
@@ -93,7 +93,7 @@ url = "/categories/"
 title = ""
 [languages.en]
 weight = 1
-title = "EastAsh Dev Blog"
+title = "EastAsh's Dev Foodprints"
 languageCode = "en"
 languageName = "English"
 [[languages.en.menu.main]]

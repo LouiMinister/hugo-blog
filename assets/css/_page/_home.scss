@@ -3,10 +3,10 @@
   .summary {
 
     .featured-image-preview {
-      width: 110%;
+      width: 120%;
       padding: 30% 0 0;
       position: relative;
-      margin: 10rem auto;
+      margin: 0.6rem auto;
       background-color: white;
       @include transition(transform 0.4s ease);
     }

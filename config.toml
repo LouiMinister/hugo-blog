@@ -15,6 +15,8 @@ languageName = "한국어"
 # whether to include Chinese/Japanese/Korean
 hasCJKLanguage = true
 
+enableEmoji = true
+
 # Author config
 [author]
 name = "xxxx"

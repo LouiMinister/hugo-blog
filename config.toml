@@ -184,9 +184,9 @@ title = ""
             paginate = 6
             # Social config in home page
     [params.social]
-    GitHub = "https://github.com/LouiMinister"
+    GitHub = "LouiMinister"
     Linkedin = ""
-    Instagram = "https://www.instagram.com/eastash_lee/"
+    Instagram = "eastash_lee"
     Steam = ""
 
 [params.page]

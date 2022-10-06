@@ -761,6 +761,9 @@ export class Photo {
 다 쪽이 RK를 가지고 있고, 다쪽이 봤을 때 1은 항상 하나의 레코드이므로.
 >
 
+> ManyToOne() 데코레이터를 단 쪽이 항상 관계의 주인 이므로 JoinColumn() 데코레이터를 생략 가능하다.
+컬럼의 이름을 변경하고 싶을 때는, JoinColumn({name: ‘column_name’}) 을 통해 컬럼 이름을 명시하자!
+
 ### ✔️ 다대다 관계 형성하기
 
 다대다 관계를 형성하는 Photo와 Album Entity를 보자.

@@ -323,7 +323,7 @@ title = ""
         [params.page.comment.gitalk]
         enable = true
         owner = "LouiMinister"
-        repo = "LouiMinister/hugo-blog"
+        repo = "hugo-blog"
         clientId = "b45efb66cd7a918b5956"
         clientSecret = "12cbc718a3c3473e481323648aeea6f17a1fdb4b"
         # Valine comment config (https://github.com/xCss/Valine)

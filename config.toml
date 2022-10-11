@@ -207,7 +207,7 @@ title = ""
             # Gravatar Email for preferred avatar in home page
             gravatarEmail = ""
             # URL of avatar shown in home page
-            avatarURL = ""
+            avatarURL = "/images/avatar.png"
             # title shown in home page (HTML format is supported)
             title = ""
             # subtitle shown in home page (HTML format is supported)
@@ -406,3 +406,12 @@ title = ""
         # automatically adapt the current theme i18n configuration when empty
         # 为空时自动适配当前主题 i18n 配置
         languageCode = ""
+        [params.page.seo]
+        # image URL
+        # 图片 URL
+        images = []
+        # Publisher info
+        # 出版者信息
+        [params.page.seo.publisher]
+        name = "xxxx"
+        logoUrl = "/images/avatar.png"

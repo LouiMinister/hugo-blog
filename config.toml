@@ -1,7 +1,7 @@
-baseURL = "http://eastash.me/"
+baseURL = "https://eastash.me/"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "loveit"
+theme = "DoIt"
 
 # website title
 title = "EastAsh의 개발자국"
@@ -157,6 +157,7 @@ title = ""
 
 
 [params]
+    version = "0.2.X"
     # site default theme ["auto", "light", "dark"]
     defaultTheme = "auto"
     # public git repo url only then enableGitInfo is true
@@ -423,3 +424,34 @@ title = ""
         [params.page.seo.publisher]
         name = "xxxx"
         logoUrl = "/images/avatar.png"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params.search]
+    enable = true
+    # type of search engine ("lunr", "algolia", "fuse")
+    type = "fuse"
+    # max index length of the chunked content
+    contentLength = 4000
+    # placeholder of the search bar
+    placeholder = ""
+    # DoIt NEW | 0.2.1 max number of results length
+    maxResultLength = 10
+    # DoIt NEW | 0.2.3 snippet length of the result
+    snippetLength = 30
+    # DoIt NEW | 0.2.1 HTML tag name of the highlight part in results
+    highlightTag = "em"
+    # DoIt NEW | 0.2.4 whether to use the absolute URL based on the baseURL in search index
+    absoluteURL = false
+    [params.search.fuse]
+        # DoIt NEW | 0.2.12 https://fusejs.io/api/options.html
+        isCaseSensitive = false
+        minMatchCharLength = 2
+        findAllMatches = false
+        location = 0
+        threshold = 0.3
+        distance = 100
+        ignoreLocation = false
+        useExtendedSearch = false
+        ignoreFieldNorm = false
